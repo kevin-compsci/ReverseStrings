@@ -22,8 +22,11 @@ class Reversal {
 
 		//Initial results
 		System.out.println("Original: " + initialStr);
+
+		//call function to reverse string
+		reverseStr = reversal(initialStr);
+
 		//Reverse results
-		reverseStr = reversal(initialStr); //call function to reverse string
 		System.out.println("Reverse: " + reverseStr);
 	}
 
