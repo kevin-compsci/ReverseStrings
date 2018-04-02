@@ -17,10 +17,10 @@ import java.util.*;
 class Reversal {
 	//main driver
 	public static void main(String[] args) {
-		
+		//Local Declarations
+		String initialStr = "HelloWorld", reverseStr = "";
 
 		//Initial results
-		String initialStr = "HelloWorld", reverseStr = "";
 		System.out.println("Original: " + initialStr);
 		//Reverse results
 		reverseStr = reversal(initialStr); //call function to reverse string
