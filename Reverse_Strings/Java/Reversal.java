@@ -15,10 +15,10 @@ import java.util.*;
 
 //class
 class Reversal {
-	//Global Declarations
-
 	//main driver
 	public static void main(String[] args) {
+		
+
 		//Initial results
 		String initialStr = "HelloWorld", reverseStr = "";
 		System.out.println("Original: " + initialStr);
