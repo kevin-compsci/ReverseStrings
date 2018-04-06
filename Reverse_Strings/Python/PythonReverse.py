@@ -16,7 +16,14 @@ import array;
 #function implementation/definition below
 #Reverse function will take an input string and reverse the characters for output
 def Reverse(myString):
-	print myString+"test";
+	#local declarations	
+	length = len(myString)
+	result = "";
+	#loop through every character in reverse and append to result string
+	while(length > -1):
+		result = result + myString[length];
+		length=length-1;
+	print result;
 
 
 #main driver below
