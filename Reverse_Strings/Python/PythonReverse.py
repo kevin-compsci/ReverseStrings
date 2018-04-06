@@ -17,7 +17,7 @@ import array;
 #Reverse function will take an input string and reverse the characters for output
 def Reverse(myString):
 	#local declarations	
-	length = len(myString)
+	length = len(myString)-1; #Note: 0 inclusive
 	result = "";
 	#loop through every character in reverse and append to result string
 	while(length > -1):
