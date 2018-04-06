@@ -15,11 +15,11 @@ import array;
 
 #function implementation/definition below
 #Reverse function will take an input string and reverse the characters for output
-def Reverse():
-	print "test";
+def Reverse(myString):
+	print myString+"test";
 
 
 #main driver below
 myString = "Hello World";
-myReverseString = Reverse();
+myReverseString = Reverse(myString);
 
