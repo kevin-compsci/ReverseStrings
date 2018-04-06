@@ -1,6 +1,6 @@
 /*
 Kevin Nguyen
-Basic Java program to reverse any given string. Performance is O(n).
+Basic Java program to reverse any given string. Performance is O(n) due to looking through every character in the sequence.
 
 How to run (linux):
 	1.) open command line and cd into directory folder of where this code is
