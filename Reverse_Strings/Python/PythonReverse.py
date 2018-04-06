@@ -1,6 +1,7 @@
 #
 #Kevin Nguyen
-#Basic Shell for Python.
+#Basic Python code to output a reverse string given an initial string. 
+#Performance: O(n). Iterating through every element in the character sequence of a string to produce the reverse of it.
 #
 #How to run (linux):
 #	1.) open command line and cd into directory folder of where this code is
@@ -9,7 +10,6 @@
 #import statements
 import sys;
 import array;
-
 
 #TODO: perform reverse strings!
 
