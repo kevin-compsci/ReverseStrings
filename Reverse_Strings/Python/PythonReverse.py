@@ -14,10 +14,12 @@ import array;
 #TODO: perform reverse strings!
 
 #function implementation/definition below
+#Reverse function will take an input string and reverse the characters for output
 def Reverse():
-	print "";
+	print "test";
 
 
 #main driver below
 myString = "Hello World";
-Reverse();
+myReverseString = Reverse();
+
