@@ -16,11 +16,24 @@ How to run (linux):
 using namespace std;
 
 //function definitions
+void reverseString();
+void printString();
 
 //main driver
 int main(int argc, char** argv) {
 	//local declarations
+	char myStr[5] = {'H','e','l','l','o'}; //Note: if not given size, then getting it would be O(n).
+	cout << "Initial: ";
 	
 }
 
 //Functions implementations goes below
+//ReverseString will take in a char sequence and reverse it
+void reverseString() {
+//TODO: implement this function
+}
+
+//Printstring function will go through the entire char array and print out each item
+void printString() {
+//TODO: implement this function	
+}
