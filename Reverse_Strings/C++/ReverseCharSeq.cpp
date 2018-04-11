@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
 	//local declarations
 	char myStr[5] = {'H','e','l','l','o'}; //Note: if not given size, then getting it would be O(n).
 	cout << "Initial: ";
-	
+	//TODO: call verse string function here then call print strings to show result
 }
 
 //Functions implementations goes below
