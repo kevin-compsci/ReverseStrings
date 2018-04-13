@@ -30,10 +30,10 @@ int main(int argc, char** argv) {
 //Functions implementations goes below
 //ReverseString will take in a char sequence and reverse it
 void reverseString() {
-//TODO: implement this function
+	//TODO: implement this function
 }
 
 //Printstring function will go through the entire char array and print out each item
 void printString() {
-//TODO: implement this function	
+	//TODO: implement this function	
 }
