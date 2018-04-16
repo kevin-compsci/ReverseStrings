@@ -37,6 +37,13 @@ void reverseString() {
 
 //Printstring function will go through the entire char array and print out each item
 void printString(char myString[], int size) {
-	//TODO: implement this function
-	cout << myString[0];
+	//Local Declarations
+	int i = 0;
+
+	//loop through every element in array and print it out
+	while(i < size) {
+		cout << myString[i];
+		i++;
+	}
+	cout << endl;
 }
