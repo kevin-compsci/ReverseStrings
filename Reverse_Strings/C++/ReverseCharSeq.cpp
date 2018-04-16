@@ -17,7 +17,7 @@ using namespace std;
 
 //function definitions
 void reverseString();
-void printString(char *, int);
+void printString(char[], int);
 
 //main driver
 int main(int argc, char** argv) {
@@ -25,6 +25,7 @@ int main(int argc, char** argv) {
 	int size = 5;
 	char myStr[size] = {'H','e','l','l','o'}; //Note: if not given size, then getting it would be O(n).
 	cout << "Initial: ";
+	printString(myStr, size);
 	//TODO: call verse string function here then call print strings to show result
 }
 
@@ -35,6 +36,7 @@ void reverseString() {
 }
 
 //Printstring function will go through the entire char array and print out each item
-void printString(char *myString, int size) {
-	//TODO: implement this function	
+void printString(char myString[], int size) {
+	//TODO: implement this function
+	cout << myString[0];
 }
