@@ -16,7 +16,7 @@ How to run (linux):
 using namespace std;
 
 //function definitions
-void reverseString();
+char *reverseString(char[], int);
 void printString(char[], int);
 int getSize(char[]);
 
@@ -24,17 +24,24 @@ int getSize(char[]);
 int main(int argc, char** argv) {
 	//local declarations
 	int size = 5;
+	char *p;
 	char myStr[size] = {'H','e','l','l','o'}; //Note: if not given size, then getting it would be O(n).
+	
+	//Initial str
 	cout << "Initial: ";
 	printString(myStr, size);
-	cout << getSize(myStr) << " ! " << endl;
-	//TODO: call verse string function here then call print strings to show result
+
+	//reverse Str
+	cout << "Reverse: ";
+	p = reverseString(myStr, size);
+	cout << p[0] << endl;
 }
 
 //Functions implementations goes below
 //ReverseString will take in a char sequence and reverse it
-void reverseString() {
-	//TODO: implement this function
+char *reverseString(char myString[], int size) {
+	static char rww[1] = {'B'};
+	return rww;
 }
 
 //Printstring function will go through the entire char array and print out each item
@@ -54,7 +61,7 @@ void printString(char myString[], int size) {
 int getSize(char myString[]) {
 	//local declarations
 	int i = 0;
-	
+
 	//loop through every element in array and count
 	while(myString[i] != '\0') {
 		i++;
