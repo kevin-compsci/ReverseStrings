@@ -18,6 +18,7 @@ using namespace std;
 //function definitions
 void reverseString();
 void printString(char[], int);
+int getSize(char[]);
 
 //main driver
 int main(int argc, char** argv) {
@@ -26,6 +27,7 @@ int main(int argc, char** argv) {
 	char myStr[size] = {'H','e','l','l','o'}; //Note: if not given size, then getting it would be O(n).
 	cout << "Initial: ";
 	printString(myStr, size);
+	cout << getSize(myStr) << " ! " << endl;
 	//TODO: call verse string function here then call print strings to show result
 }
 
@@ -46,4 +48,16 @@ void printString(char myString[], int size) {
 		i++;
 	}
 	cout << endl;
+}
+
+//getSize will get the size of the array if not given. O(n) performance (OPTIONAL USE).
+int getSize(char myString[]) {
+	//local declarations
+	int i = 0;
+	
+	//loop through every element in array and count
+	while(myString[i] != '\0') {
+		i++;
+	}
+	return i-1; //don't include terminating char in size
 }
