@@ -23,7 +23,7 @@ int getSize(char[]);
 //main driver
 int main(int argc, char** argv) {
 	//local declarations
-	int size = 5;
+	int size = 11;
 	char myStr[size] = {'H','e','l','l','o',' ','W','o','r','l','d'}; //Note: if not given size, then getting it would be O(n).
 	char revStr[size];
 
