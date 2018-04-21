@@ -27,11 +27,11 @@ int main(int argc, char** argv) {
 	char myStr[size] = {'H','e','l','l','o',' ','W','o','r','l','d'}; //Note: if not given size, then getting it would be O(n).
 	char revStr[size];
 
-	//Initial str
+	//Initial string (char sequence)
 	cout << "Initial: ";
 	printString(myStr, size);
 
-	//reverse Str
+	//reverse string (char sequence)
 	cout << "Reverse: ";
 	reverseString(myStr, &size, revStr);
 	printString(revStr, size);
