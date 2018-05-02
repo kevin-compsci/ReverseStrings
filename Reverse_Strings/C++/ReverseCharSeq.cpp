@@ -23,15 +23,15 @@ int getSize(char[]);
 //main driver
 int main(int argc, char** argv) {
 	//local declarations
-	int size = 11;
-	char myStr[size] = {'H','e','l','l','o',' ','W','o','r','l','d'}; //Note: if not given size, then getting it would be O(n).
+	int size = 5;
+	char myStr[size] = {'H','e','l','l','o'}; //Note: if not given size, then getting it would be O(n).
 	char revStr[size];
 
-	//Initial string (char sequence)
+	//Initial str
 	cout << "Initial: ";
 	printString(myStr, size);
 
-	//reverse string (char sequence)
+	//reverse Str
 	cout << "Reverse: ";
 	reverseString(myStr, &size, revStr);
 	printString(revStr, size);
@@ -41,11 +41,11 @@ int main(int argc, char** argv) {
 //ReverseString will take in a char sequence and reverse it. Returns a pointer to new array
 void reverseString(char myString[], int *size, char *revStr) {
 	//local declarations
-	int i = 0, thisSize = *size;
+	int i = 0, thisSize = (*size)-1;
 
 	//loop through from end of array to beginning and insert it to a new result array
-	while(thisSize > 0) {
-		revStr[i] = myString[*size];
+	while(thisSize > -1) {
+		revStr[i] = myString[thisSize];
 		thisSize--; i++;
 	}
 }
